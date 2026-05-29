@@ -1,16 +1,55 @@
-# React + Vite
+# MERN Stack Task 4 - React Router DOM
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+This project is a modern multi-page React application built using React Router DOM. The application demonstrates seamless navigation between different pages without refreshing the browser.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
 
-## React Compiler
+* React.js
+* React Router DOM
+* JavaScript
+* CSS
+* Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+* Dynamic page routing
+* Responsive navigation bar
+* Home page
+* About page
+* Contact page
+* Custom 404 Error page
+* Smooth Single Page Application (SPA) experience
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Routing Structure
+
+| Route    | Page          |
+| -------- | ------------- |
+| /        | Home          |
+| /about   | About         |
+| /contact | Contact       |
+| *        | 404 Not Found |
+
+## Concepts Practiced
+
+* Browser routing
+* SPA navigation
+* Link component usage
+* Route handling
+* 404 page implementation
+
+## Interview Questions Covered
+
+### What is a Single Page Application?
+
+A Single Page Application loads a single HTML page and dynamically updates content without refreshing the entire webpage.
+
+### Link vs Anchor Tag
+
+* `Link` is used in React for internal navigation without reloading the page.
+* `Anchor tag` refreshes the complete webpage while navigating.
+
+## Final Outcome
+
+Successfully created a professional multi-page React application with modern UI and React Router DOM integration.
